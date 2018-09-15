@@ -34,21 +34,6 @@ public class Student {
         this.name = name;
         this.age = ThreadLocalRandom.current().nextInt(5, 50);;
     }
-    public long getId()
-    {
-        return id;
-    }
-
-    public String getName()
-    {
-        return name;
-    }
-
-    public long getAge()
-    {
-        return age;
-    }
-
 
     @Override
     public String toString()
